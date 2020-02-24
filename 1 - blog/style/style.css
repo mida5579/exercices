@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+*
+{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body
+{
+  font-family: 'Lato';
+}
+
+.content
+{
+   min-height: 80vh;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+    position: fixed;
+}
+
+.mini-side
+{
+  width: 300px;
+  min-height: 100vh;
+  position: fixed;
+  padding: 50px 30px;
+  
+}
+
+/** fisrt **/
+
+.fisrt
+{
+  height: 75vh;
+}
+
+.fisrt ul li ,.second ul li 
+{
+  list-style: none;
+  margin-top: 20px;
+
+}
+
+.fisrt ul li a ,.second ul li a
+{
+ text-decoration: none;
+  font-size: 18px;
+  color: #cfd0d1;
+  
+}
+
+/** second **/
+
+.second
+{
+  height:200px;
+  margin-bottom: 50px;
+}
+
+.main
+{
+  height: 100vh;
+  width: 100%;
+padding-left: 300px;
+display: flex;
+  
+}
+
+.main-one
+{
+  flex: 2;
+  
+}
+
+.paragraphe-one
+{
+  height: 50vh;
+   font-size: 20px;
+   line-height: 45px;
+   width: 80%;
+   margin-top: 50px;
+}
+
+.paragraphe-one h1
+{
+  font-size: 5em;
+  margin-bottom: 100px;
+  font-family: 'Playfair Display';
+}
+
+.paragraphe-two
+{
+  height: 50vh;
+   font-size: 20px;
+   line-height: 45px;
+   width: 80%;
+ 
+}
+
+
+.paragraphe-two h2
+{
+  font-size: 3em;
+  margin-bottom: 50px;
+  font-weight: unset;
+}
+
+/** part two**/
+
+.main-two
+{
+  flex: 1;
+  
+ 
+
+}
+
+.card
+{
+
+  background:linear-gradient( rgba(255,255,255,0.2),rgba(0,0,0,0.4)), url('../images/woman.jpg') center no-repeat;
+  background-size: cover;
+  transform: rotate(-90deg);
+  transform-origin: right,top;
+  height: 60.5%;
+  width: 182%;
+  margin-top: 30%;
+  margin-left: -45%;
+}
+
+.description
+{
+ transform: rotate(90deg);
+ margin-left: -45%;
+ height: 60.5%;
+ width: 182%;
+
+}
+
+/*
+img{
+  transform: rotate(-90deg);
+  transform-origin: right,top;
+  height: 600px;
+  width: 1200px;
+  
+  
+}*/
+
+
+

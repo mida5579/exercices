@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper
+{
+    height: 100vh;
+    width: 80%;
+    background-color: #fff;
+    margin: 2% auto;
+    
+}
+
+.part_one ,.part_two
+{
+        
+        width: 60%;
+        display: flex;
+        margin: 0 auto;
+}
+
+.card-one 
+{
+ flex: 1;
+  height: 51vh;
+  background: #ada1ec;
+  margin:30px;
+  position: relative;
+  border-radius: 7px;
+  box-shadow: 0px 13px 19px -1px rgba(0,0,0,0.4);
+}
+.card-two
+{
+    flex: 1;
+    height: 50vh;
+    background-color: #EEDB9C; 
+    margin:30px;
+    position: relative;
+    border-radius: 7px;
+    box-shadow: 0px 13px 19px -1px rgba(0,0,0,0.4);
+}
+
+img
+{
+height: 200px;
+width: 200px;
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+}
+.card-one .description ,.card-two .description
+{
+  height: 120px;
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  top:78%;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.description button
+{
+  height: 50px;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+/** part-two**/
+
+.part_two
+{
+    height: 50vh;
+    width: 60%;
+    display: flex;
+    margin: 0 auto; 
+}
+ .part_two .card-one
+{
+    flex: 1;
+    height: 50vh;
+    background:#74f7fb;
+    margin:30px;
+    position: relative;
+    border-radius: 7px; 
+    box-shadow: 0px 13px 19px -1px rgba(0,0,0,0.4); 
+}
+.part_two .card-two
+{
+    flex: 1;
+    height: 50vh;
+    background: #feaeeb;
+    margin:30px;
+    position: relative;
+    border-radius: 7px;
+    box-shadow: 0px 13px 19px -1px rgba(0,0,0,0.4);   
+}
+
+
+
+
+
